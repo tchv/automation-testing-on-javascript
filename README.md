@@ -1,4 +1,9 @@
 # automation-testing-on-javascript
 Automation testing using the framework Protractor
 
-![GIF](https://github.com/tchv/automation-testing-on-javascript/blob/master/auto_test_1.gif)
+##### Use npm to install Protractor globally with:
+```
+npm install -g protractor
+```
+
+![GIF](https://github.com/tchv/automation-testing-on-javascript/blob/master/images/auto_test_1.gif)
