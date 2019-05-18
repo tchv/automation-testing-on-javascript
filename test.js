@@ -1,15 +1,15 @@
-describe ("Go to the my website ", function() {
+// Opens web browser Google Chrome
+describe ("Step 1", function() {
     browser.ignoreSynchronization = true;
     console.log("\n" + "Go to the Home page for my website" + "\n");
-    
-    it ("Go to the Home page ", function() {
+    // Opens my personal website
+    it ("step 2", function() {
         browser.get("https://tchv.github.io/Taras_Chornyi/");
         console.log("\n" + "Home page open successfully" + "\n");
     });
-    
-    it ("Go to CV ", function(){
-        let pendants = element(by.css(".main > .about > .about-box > .about-link"));
-        pendants.click();
+    // Clicked button and open CV
+    it ("Step 3", function(){
+        element(by.css(".main > .about > .about-box > .about-link")).click();
         browser.sleep(5000);
         console.log("CV page open successfully" + "\n");
         browser.navigate().back();
